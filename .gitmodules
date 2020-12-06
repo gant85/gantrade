@@ -1,0 +1,3 @@
+[submodule "gantrade"]
+	path = gantrade
+	url = https://github.com/gant85/gant-trade.git
