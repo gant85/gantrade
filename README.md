@@ -39,4 +39,4 @@ After the configuration is done, you can start the `RsiEmaBot` via api (see api.
 GanTradeBot contains many major trend following strategies (RSI+EMA, Stochastic Oscillator, ATR) 
 
 ## RsiEmaBot
-The RsiEmaBot bot uses three simple moving averages with different lengths. A buy is triggered when `ema short > ema middle > ema long` and a sell is triggered when the `ema short < ema middle` or `ema short < ema long` or `price bought descrease 3%`. A RSI (Relative Strength Index) filter can be applied, buys only executed when the RSI indicator confirms a trend (`RSI >= 50`).
+The RsiEmaBot bot uses three simple moving averages with different lengths. A buy is triggered when `ema short > ema middle > ema long` and a sell is triggered when the `ema short < ema middle` or `ema short < ema long` or `price bought decrease 3%`. A RSI (Relative Strength Index) filter can be applied, buys only executed when the RSI indicator confirms a trend (`RSI >= 50`).
